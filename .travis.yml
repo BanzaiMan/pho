@@ -1,6 +1,8 @@
 language: php
 
-os: osx
+os:
+  - osx
+  - linux
 
 php:
   - 5.4
