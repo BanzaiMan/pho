@@ -3,6 +3,7 @@ language: php
 os:
   - osx
   - linux
+  - foo
 
 php:
   - 5.4
