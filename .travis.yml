@@ -1,4 +1,4 @@
-language: php
+language: haskell
 
 os:
   - osx
@@ -12,6 +12,9 @@ php:
 python:
   - 2.7
   - 3.3
+
+ghc:
+  - 7.6.3
 
 script: true
 
