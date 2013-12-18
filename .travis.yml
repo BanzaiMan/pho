@@ -16,5 +16,8 @@ python:
 ghc:
   - 7.6.3
 
+rvm:
+  - 2.0.0
+
 script: true
 
