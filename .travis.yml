@@ -1,4 +1,4 @@
-language: python
+language: ruby
 
 os:
   - osx
@@ -17,8 +17,9 @@ ghc:
   - 7.6.3
 
 rvm:
+  - "2.1.0-rc1"
   - 2.0.0
   - 1.9.3
 
-script: true
+script: ruby -v
 
