@@ -25,5 +25,4 @@ script: ruby -v
 
 matrix:
   allowec_failures:
-    - rvm: "2.1.0-rc1"
-      os: osx
+    - rvm: "2.1.0-rc1" os: osx
