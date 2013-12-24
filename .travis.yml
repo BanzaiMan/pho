@@ -26,3 +26,7 @@ script: ruby -v
 matrix:
   allowed_failures:
     - rvm: "2.1.0-rc1" os: osx
+
+notifications:
+  email:
+    - $USER@example.com
